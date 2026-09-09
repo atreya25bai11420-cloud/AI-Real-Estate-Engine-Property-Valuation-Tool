@@ -1,0 +1,53 @@
+name: PropTech Backend CI/CD
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgrespassword
+          POSTGRES_DB: proptech_db
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24.x'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Validate Prisma Schema
+        run: npx prisma validate
+
+      - name: Push Schema to Test Database
+        env:
+          DATABASE_URL: "postgresql://postgres:postgrespassword@localhost:5432/proptech_db?schema=public"
+        run: npx prisma db push
+
+      - name: Run Integration Tests
+        env:
+          DATABASE_URL: "postgresql://postgres:postgrespassword@localhost:5432/proptech_db?schema=public"
+          JWT_SECRET: "ci-secret-key-2026"
+        run: npm test

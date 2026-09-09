@@ -1,0 +1,59 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  id            String      @id @default(uuid())
+  email         String      @unique
+  passwordHash  String
+  role          String      @default("USER")
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+  valuations    Valuation[]
+}
+
+model Property {
+  id            String      @id @default(uuid())
+  address       String
+  city          String
+  state         String
+  zipCode       String
+  propertyType  String
+  bedrooms      Int
+  bathrooms     Float
+  squareFeet    Int
+  yearBuilt     Int
+  lotSize       Float?
+  latitude      Float?
+  longitude     Float?
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+  valuations    Valuation[]
+}
+
+model Valuation {
+  id                String    @id @default(uuid())
+  propertyId        String
+  userId            String?
+  estimatedValue    Float
+  confidenceScore   Float
+  valuationFactors  Json
+  modelVersion      String    @default("v1.0.0")
+  createdAt         DateTime  @default(now())
+  property          Property  @relation(fields: [propertyId], references: [id], onDelete: Cascade)
+  user              User?     @relation(fields: [userId], references: [id], onDelete: SetNull)
+}
+
+model MarketTrend {
+  id               String   @id @default(uuid())
+  zipCode          String
+  city             String
+  avgPricePerSqFt  Float
+  medianSalePrice  Float
+  inventoryCount   Int
+  recordedAt       DateTime @default(now())
+}

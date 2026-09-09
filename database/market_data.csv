@@ -1,0 +1,107 @@
+﻿ZipCode,City,PricePerSqFt,MedianSalePrice,Inventory
+530001,Visakhapatnam (Andhra Pradesh),7500,9000000,120
+520001,Vijayawada (Andhra Pradesh),6500,7800000,95
+522002,Guntur (Andhra Pradesh),4800,5760000,80
+517501,Tirupati (Andhra Pradesh),5200,6240000,75
+533001,Kakinada (Andhra Pradesh),4200,5040000,60
+791111,Itanagar (Arunachal Pradesh),3800,4560000,30
+781001,Guwahati (Assam),5800,6960000,110
+788001,Silchar (Assam),3800,4560000,45
+786001,Dibrugarh (Assam),3500,4200000,40
+800001,Patna (Bihar),7200,8640000,130
+823001,Gaya (Bihar),4200,5040000,65
+842001,Muzaffarpur (Bihar),4500,5400000,55
+812001,Bhagalpur (Bihar),4000,4800000,50
+492001,Raipur (Chhattisgarh),4800,5760000,105
+490001,Bhilai/Durg (Chhattisgarh),3800,4560000,85
+495001,Bilaspur (Chhattisgarh),3600,4320000,70
+403001,Panaji (Goa),9500,11400000,50
+403601,Margao (Goa),6500,7800000,60
+403521,Porvorim (Goa),8500,10200000,40
+380001,Ahmedabad (Gujarat),6800,8160000,210
+395001,Surat (Gujarat),5500,6600000,185
+390001,Vadodara (Gujarat),4800,5760000,140
+360001,Rajkot (Gujarat),4500,5400000,115
+382010,Gandhinagar (Gujarat),6200,7440000,90
+122001,Gurugram (Haryana),16500,19800000,280
+121001,Faridabad (Haryana),6500,7800000,160
+132103,Panipat (Haryana),4800,5760000,75
+134109,Panchkula (Haryana),8200,9840000,85
+171001,Shimla (Himachal Pradesh),8500,10200000,35
+176215,Dharamshala (Himachal Pradesh),6500,7800000,40
+173212,Solan (Himachal Pradesh),4800,5760000,50
+834001,Ranchi (Jharkhand),5200,6240000,120
+831001,Jamshedpur (Jharkhand),5800,6960000,100
+826001,Dhanbad (Jharkhand),3800,4560000,80
+560001,Bengaluru (Karnataka),16500,19800000,320
+570001,Mysuru (Karnataka),5800,6960000,110
+575001,Mangaluru (Karnataka),6200,7440000,95
+580001,Hubballi-Dharwad (Karnataka),4200,5040000,70
+590001,Belagavi (Karnataka),4000,4800000,60
+695001,Thiruvananthapuram (Kerala),6800,8160000,110
+682001,Kochi/Ernakulam (Kerala),7500,9000000,145
+673001,Kozhikode (Kerala),5800,6960000,85
+680001,Thrissur (Kerala),5200,6240000,75
+462001,Bhopal (Madhya Pradesh),4800,5760000,130
+452001,Indore (Madhya Pradesh),6200,7440000,175
+482001,Jabalpur (Madhya Pradesh),3800,4560000,90
+474001,Gwalior (Madhya Pradesh),4000,4800000,85
+456001,Ujjain (Madhya Pradesh),3800,4560000,65
+400001,Mumbai South (Maharashtra),52000,62400000,90
+411001,Pune Central (Maharashtra),11500,13800000,240
+440001,Nagpur (Maharashtra),5200,6240000,135
+422001,Nashik (Maharashtra),4800,5760000,110
+400601,Thane (Maharashtra),14500,17400000,200
+400703,Navi Mumbai (Maharashtra),12500,15000000,180
+431001,Chhatrapati Sambhajinagar (Maharashtra),4500,5400000,85
+416001,Kolhapur (Maharashtra),4200,5040000,70
+795001,Imphal (Manipur),4500,5400000,25
+793001,Shillong (Meghalaya),6200,7440000,30
+796001,Aizawl (Mizoram),4200,5040000,20
+797001,Kohima (Nagaland),4000,4800000,25
+751001,Bhubaneswar (Odisha),6800,8160000,140
+753001,Cuttack (Odisha),5200,6240000,85
+769001,Rourkela (Odisha),4000,4800000,60
+752001,Puri (Odisha),5500,6600000,50
+141001,Ludhiana (Punjab),5200,6240000,115
+143001,Amritsar (Punjab),4800,5760000,100
+144001,Jalandhar (Punjab),4500,5400000,90
+160055,Mohali/SAS Nagar (Punjab),9200,11040000,130
+147001,Patiala (Punjab),4200,5040000,70
+302001,Jaipur (Rajasthan),6500,7800000,210
+342001,Jodhpur (Rajasthan),4800,5760000,105
+313001,Udaipur (Rajasthan),5500,6600000,85
+324001,Kota (Rajasthan),4200,5040000,95
+305001,Ajmer (Rajasthan),4000,4800000,65
+737101,Gangtok (Sikkim),5500,6600000,25
+600001,Chennai Central (Tamil Nadu),11500,13800000,260
+641001,Coimbatore (Tamil Nadu),6800,8160000,165
+625001,Madurai (Tamil Nadu),5200,6240000,110
+620001,Tiruchirappalli (Tamil Nadu),4800,5760000,90
+636001,Salem (Tamil Nadu),4200,5040000,75
+641601,Tiruppur (Tamil Nadu),4500,5400000,80
+500001,Hyderabad Central (Telangana),9800,11760000,290
+506001,Warangal (Telangana),4200,5040000,80
+505001,Karimnagar (Telangana),3800,4560000,65
+799001,Agartala (Tripura),4000,4800000,35
+226001,Lucknow (Uttar Pradesh),6800,8160000,220
+208001,Kanpur (Uttar Pradesh),5500,6600000,150
+221001,Varanasi (Uttar Pradesh),6200,7440000,125
+282001,Agra (Uttar Pradesh),4800,5760000,105
+211001,Prayagraj (Uttar Pradesh),5200,6240000,115
+201301,Noida (Uttar Pradesh),9500,11400000,240
+201001,Ghaziabad (Uttar Pradesh),7800,9360000,190
+273001,Gorakhpur (Uttar Pradesh),4800,5760000,95
+224123,Ayodhya (Uttar Pradesh),6500,7800000,85
+248001,Dehradun (Uttarakhand),7200,8640000,120
+249401,Haridwar (Uttarakhand),5200,6240000,80
+263139,Haldwani (Uttarakhand),4800,5760000,65
+700001,Kolkata Central (West Bengal),11000,13200000,230
+711001,Howrah (West Bengal),5500,6600000,120
+734001,Siliguri (West Bengal),5200,6240000,95
+713201,Durgapur (West Bengal),3800,4560000,70
+110001,Delhi Central (Delhi UT),35000,42000000,150
+160017,Chandigarh (UT),12500,15000000,90
+180001,Jammu (Jammu & Kashmir UT),5200,6240000,70
+190001,Srinagar (Jammu & Kashmir UT),5800,6960000,60
+605001,Puducherry (UT),6500,7800000,55
